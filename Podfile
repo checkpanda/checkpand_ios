@@ -7,4 +7,5 @@ target 'checkpanda' do
 
   # Pods for checkpanda
 
+  pod 'XLPagerTabStrip', '~> 8.0'
 end

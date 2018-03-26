@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C57848E5AE5C1B8659A2F1 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57D7ACD715210F68F212E /* ToDoListViewController.swift */; };
+		38C57A90CE022B35BC07113C /* ToDoCategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57D72B6A224526F453085 /* ToDoCategoryListViewController.swift */; };
+		38C57CCD4743C7AA512929DC /* ToDoListTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5770076A3B23FB3B5E334 /* ToDoListTabViewController.swift */; };
+		B6B0F66620613E71007B5D18 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0F66520613E71007B5D18 /* ToDo.swift */; };
+		B6B0F6682062CE68007B5D18 /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B0F6672062CE68007B5D18 /* ToDoTableViewCell.xib */; };
+		B6B0F66A2062D129007B5D18 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B0F6692062D129007B5D18 /* ToDoTableViewCell.swift */; };
 		B6C912E6205191C1007AD312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C912E5205191C1007AD312 /* AppDelegate.swift */; };
-		B6C912E8205191C1007AD312 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C912E7205191C1007AD312 /* FirstViewController.swift */; };
-		B6C912EA205191C1007AD312 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C912E9205191C1007AD312 /* SecondViewController.swift */; };
 		B6C912ED205191C1007AD312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C912EB205191C1007AD312 /* Main.storyboard */; };
 		B6C912EF205191C1007AD312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C912EE205191C1007AD312 /* Assets.xcassets */; };
 		B6C912F2205191C1007AD312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C912F0205191C1007AD312 /* LaunchScreen.storyboard */; };
 		B6C912FA205271CE007AD312 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C912F9205271CE007AD312 /* AddToDoViewController.swift */; };
+		E18214E5F8587BC7FA1AA34A /* Pods_checkpanda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE78614F2B2500B88955FFF /* Pods_checkpanda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B98318B7B3A82BCF05C58D /* Pods-checkpanda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkpanda.release.xcconfig"; path = "Pods/Target Support Files/Pods-checkpanda/Pods-checkpanda.release.xcconfig"; sourceTree = "<group>"; };
+		38C5770076A3B23FB3B5E334 /* ToDoListTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTabViewController.swift; sourceTree = "<group>"; };
+		38C57D72B6A224526F453085 /* ToDoCategoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCategoryListViewController.swift; sourceTree = "<group>"; };
+		38C57D7ACD715210F68F212E /* ToDoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		3C0C54114813B35624F03C14 /* Pods-checkpanda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkpanda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-checkpanda/Pods-checkpanda.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE78614F2B2500B88955FFF /* Pods_checkpanda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checkpanda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B0F66520613E71007B5D18 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		B6B0F6672062CE68007B5D18 /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
+		B6B0F6692062D129007B5D18 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
 		B6C912E2205191C1007AD312 /* checkpanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkpanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C912E5205191C1007AD312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6C912E7205191C1007AD312 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B6C912E9205191C1007AD312 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B6C912EC205191C1007AD312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C912EE205191C1007AD312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C912F1205191C1007AD312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18214E5F8587BC7FA1AA34A /* Pods_checkpanda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD743F99844CF755C4F7752E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE78614F2B2500B88955FFF /* Pods_checkpanda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6C912D9205191C0007AD312 = {
 			isa = PBXGroup;
 			children = (
 				B6C912E4205191C1007AD312 /* checkpanda */,
 				B6C912E3205191C1007AD312 /* Products */,
+				E5B9228E1B404249436C2E5E /* Pods */,
+				AD743F99844CF755C4F7752E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +82,28 @@
 			isa = PBXGroup;
 			children = (
 				B6C912E5205191C1007AD312 /* AppDelegate.swift */,
-				B6C912E7205191C1007AD312 /* FirstViewController.swift */,
-				B6C912E9205191C1007AD312 /* SecondViewController.swift */,
 				B6C912EB205191C1007AD312 /* Main.storyboard */,
+				B6B0F6672062CE68007B5D18 /* ToDoTableViewCell.xib */,
+				B6B0F6692062D129007B5D18 /* ToDoTableViewCell.swift */,
 				B6C912EE205191C1007AD312 /* Assets.xcassets */,
 				B6C912F0205191C1007AD312 /* LaunchScreen.storyboard */,
 				B6C912F3205191C1007AD312 /* Info.plist */,
 				B6C912F9205271CE007AD312 /* AddToDoViewController.swift */,
+				38C57D72B6A224526F453085 /* ToDoCategoryListViewController.swift */,
+				38C5770076A3B23FB3B5E334 /* ToDoListTabViewController.swift */,
+				B6B0F66520613E71007B5D18 /* ToDo.swift */,
+				38C57D7ACD715210F68F212E /* ToDoListViewController.swift */,
 			);
 			path = checkpanda;
+			sourceTree = "<group>";
+		};
+		E5B9228E1B404249436C2E5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0C54114813B35624F03C14 /* Pods-checkpanda.debug.xcconfig */,
+				08B98318B7B3A82BCF05C58D /* Pods-checkpanda.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6C912F6205191C1007AD312 /* Build configuration list for PBXNativeTarget "checkpanda" */;
 			buildPhases = (
+				B1F5F2D21E399357094541D7 /* [CP] Check Pods Manifest.lock */,
 				B6C912DE205191C0007AD312 /* Sources */,
 				B6C912DF205191C0007AD312 /* Frameworks */,
 				B6C912E0205191C0007AD312 /* Resources */,
+				E1668D4396FEE8B409FDA57F /* [CP] Embed Pods Frameworks */,
+				DEF2F7D3EAC70178F25CC3CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,20 +171,78 @@
 				B6C912F2205191C1007AD312 /* LaunchScreen.storyboard in Resources */,
 				B6C912EF205191C1007AD312 /* Assets.xcassets in Resources */,
 				B6C912ED205191C1007AD312 /* Main.storyboard in Resources */,
+				B6B0F6682062CE68007B5D18 /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1F5F2D21E399357094541D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-checkpanda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF2F7D3EAC70178F25CC3CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-checkpanda/Pods-checkpanda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1668D4396FEE8B409FDA57F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-checkpanda/Pods-checkpanda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-checkpanda/Pods-checkpanda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6C912DE205191C0007AD312 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B0F66620613E71007B5D18 /* ToDo.swift in Sources */,
 				B6C912FA205271CE007AD312 /* AddToDoViewController.swift in Sources */,
-				B6C912EA205191C1007AD312 /* SecondViewController.swift in Sources */,
 				B6C912E6205191C1007AD312 /* AppDelegate.swift in Sources */,
-				B6C912E8205191C1007AD312 /* FirstViewController.swift in Sources */,
+				38C57A90CE022B35BC07113C /* ToDoCategoryListViewController.swift in Sources */,
+				B6B0F66A2062D129007B5D18 /* ToDoTableViewCell.swift in Sources */,
+				38C57CCD4743C7AA512929DC /* ToDoListTabViewController.swift in Sources */,
+				38C57848E5AE5C1B8659A2F1 /* ToDoListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +377,7 @@
 		};
 		B6C912F7205191C1007AD312 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0C54114813B35624F03C14 /* Pods-checkpanda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +394,7 @@
 		};
 		B6C912F8205191C1007AD312 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B98318B7B3A82BCF05C58D /* Pods-checkpanda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
