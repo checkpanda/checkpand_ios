@@ -8,4 +8,5 @@ target 'checkpanda' do
   # Pods for checkpanda
 
   pod 'XLPagerTabStrip', '~> 8.0'
+  pod 'FSCalendar', '~> 2.7.9'
 end
