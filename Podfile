@@ -9,4 +9,5 @@ target 'checkpanda' do
 
   pod 'XLPagerTabStrip', '~> 8.0'
   pod 'FSCalendar', '~> 2.7.9'
+  pod 'CalculateCalendarLogic', '~> 0.1.6'
 end
