@@ -1,18 +1,24 @@
 PODS:
   - CalculateCalendarLogic (0.1.6)
+  - Cosmos (15.0.0)
+  - Eureka (4.1.0)
   - FSCalendar (2.7.9)
   - XLPagerTabStrip (8.0.0)
 
 DEPENDENCIES:
   - CalculateCalendarLogic (~> 0.1.6)
+  - Cosmos (~> 15.0.0)
+  - Eureka (~> 4.1.0)
   - FSCalendar (~> 2.7.9)
   - XLPagerTabStrip (~> 8.0)
 
 SPEC CHECKSUMS:
   CalculateCalendarLogic: 81b16c24e2b7273fffb03fc29d0c8d1800fd3c9e
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  Eureka: 5770ef95bbbbe52f8abbc0d9bea6ee8282c50209
   FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
 
-PODFILE CHECKSUM: fd0254e62bba5582bbd99e640de34f4866368602
+PODFILE CHECKSUM: 638709c7ae187017ade453466555fba09beb5229
 
 COCOAPODS: 1.4.0

@@ -11,4 +11,5 @@ target 'checkpanda' do
   pod 'FSCalendar', '~> 2.7.9'
   pod 'CalculateCalendarLogic', '~> 0.1.6'
   pod 'Eureka', '~> 4.1.0'
+  pod 'Cosmos', '~> 15.0.0'
 end
