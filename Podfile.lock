@@ -1,12 +1,18 @@
 PODS:
+  - CalculateCalendarLogic (0.1.6)
+  - FSCalendar (2.7.9)
   - XLPagerTabStrip (8.0.0)
 
 DEPENDENCIES:
+  - CalculateCalendarLogic (~> 0.1.6)
+  - FSCalendar (~> 2.7.9)
   - XLPagerTabStrip (~> 8.0)
 
 SPEC CHECKSUMS:
+  CalculateCalendarLogic: 81b16c24e2b7273fffb03fc29d0c8d1800fd3c9e
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
   XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
 
-PODFILE CHECKSUM: 236a36357747a09b420c7fffda35fdb9a5fa8d02
+PODFILE CHECKSUM: fd0254e62bba5582bbd99e640de34f4866368602
 
 COCOAPODS: 1.4.0
