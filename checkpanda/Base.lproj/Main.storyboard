@@ -78,12 +78,25 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="headerDateFormat" value="yyyy年 MM月"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerHeight">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsMultipleSelection" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="dataSource" destination="6sc-q2-Fr4" id="05s-hr-D4e"/>
                                     <outlet property="delegate" destination="6sc-q2-Fr4" id="XbY-f6-eYl"/>
                                 </connections>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WYa-ud-z6H">
+                                <rect key="frame" x="0.0" y="337" width="375" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="6sc-q2-Fr4" id="GLR-SY-GDV"/>
+                                    <outlet property="delegate" destination="6sc-q2-Fr4" id="U0A-2o-0w4"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="t62-Ql-Q4B"/>
@@ -91,10 +104,16 @@
                     <tabBarItem key="tabBarItem" id="RqX-6N-ZZO"/>
                     <navigationItem key="navigationItem" id="Tlz-vA-4mn">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="qem-Tg-gkB"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="283-nn-0ER"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="283-nn-0ER">
+                            <connections>
+                                <action selector="actionCurrentMonthTap:" destination="6sc-q2-Fr4" id="NQu-Sn-ozc"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="calendar" destination="Pam-Jx-Tex" id="KXh-B6-HGE"/>
+                        <outlet property="currentMonth" destination="283-nn-0ER" id="xdf-zY-Kf4"/>
+                        <outlet property="tableView" destination="WYa-ud-z6H" id="Yr1-br-W8m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkp-uF-BwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
