@@ -19,7 +19,10 @@ class ToDoCalendarViewController: UIViewController,
     func setCurrentMonthTitle(_ date: Date) {
         currentMonth.title = monthDateFormatter.string(from: date)
     }
-
+    @IBAction func actionCurrentMonthTap(_ sender: Any) {
+        calendar.setCurrentPage(calendar.today!, animated: true)
+    }
+    
     
     var toDoList: [ToDo] = [ToDo(t: "test1")]
 
