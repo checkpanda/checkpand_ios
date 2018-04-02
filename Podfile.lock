@@ -1,18 +1,32 @@
 PODS:
   - CalculateCalendarLogic (0.1.6)
+  - Cosmos (15.0.0)
+  - Eureka (4.1.0)
   - FSCalendar (2.7.9)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
+  - RealmSwift (3.1.1):
+    - Realm (= 3.1.1)
   - XLPagerTabStrip (8.0.0)
 
 DEPENDENCIES:
   - CalculateCalendarLogic (~> 0.1.6)
+  - Cosmos (~> 15.0.0)
+  - Eureka (~> 4.1.0)
   - FSCalendar (~> 2.7.9)
+  - RealmSwift (~> 3.1.1)
   - XLPagerTabStrip (~> 8.0)
 
 SPEC CHECKSUMS:
   CalculateCalendarLogic: 81b16c24e2b7273fffb03fc29d0c8d1800fd3c9e
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  Eureka: 5770ef95bbbbe52f8abbc0d9bea6ee8282c50209
   FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
+  RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
   XLPagerTabStrip: d1ab378af0923320ec0b5eab11d7b2f803d31261
 
-PODFILE CHECKSUM: fd0254e62bba5582bbd99e640de34f4866368602
+PODFILE CHECKSUM: e846b5fc609ed1537ff9a419c517d6e2be6bc31d
 
 COCOAPODS: 1.4.0

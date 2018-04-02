@@ -37,9 +37,13 @@ class AddToDoViewController: FormViewController {
                     row.title = "カテゴリー"
                     row.options = ["カテゴリー1", "カテゴリー2"] // TODO fix カテゴリー
                 }
-                <<< PickerInlineRow<String>() { row in
+                <<< StarRatingRow() { row in
                     row.title = "優先度"
-                    row.options = ["☆☆★", "☆★★", "★★★"] // TODO fix カテゴリー
+                    row.totalStars = 3
                 }
+            +++ Section("")
+                <<< CheckRow() { row in
+                    row.title = "通知"
+                 }
     }
 }
