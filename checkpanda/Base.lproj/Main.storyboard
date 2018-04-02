@@ -57,7 +57,11 @@
                     <tabBarItem key="tabBarItem" id="fHb-2d-VAI"/>
                     <navigationItem key="navigationItem" id="xfy-sB-Evs">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="OJd-Qh-4zc"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="ghF-so-JbX"/>
+                        <barButtonItem key="rightBarButtonItem" title="完了" id="ghF-so-JbX">
+                            <connections>
+                                <action selector="tapFinishButton:" destination="RgR-UV-h4h" id="XJe-n1-ruW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7KK-A5-tYP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -144,7 +148,7 @@
         <scene sceneID="u1j-6R-Axb">
             <objects>
                 <navigationController id="GEV-KX-28Q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ToDo" id="VR9-T4-VoC"/>
+                    <tabBarItem key="tabBarItem" title="ToDo" image="icontodo" selectedImage="icontodo" id="VR9-T4-VoC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hP2-D7-q0B">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -157,11 +161,11 @@
             </objects>
             <point key="canvasLocation" x="1993" y="1360"/>
         </scene>
-        <!--友達-->
+        <!--Navigation Controller-->
         <scene sceneID="A10-b6-Bfx">
             <objects>
                 <navigationController id="BTf-ab-gnN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="友達" id="l7v-rd-ko4"/>
+                    <tabBarItem key="tabBarItem" selectedImage="iconfriend" id="l7v-rd-ko4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wod-BT-2kS">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -178,7 +182,7 @@
         <scene sceneID="BP4-Pg-B9I">
             <objects>
                 <navigationController id="Uti-Pd-0zD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="カテゴリー" id="dmN-LP-MF9"/>
+                    <tabBarItem key="tabBarItem" title="カテゴリー" image="iconcategory" selectedImage="iconcategory" id="dmN-LP-MF9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fEh-GR-68K">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -245,7 +249,7 @@
         <scene sceneID="9Rq-IG-CcB">
             <objects>
                 <navigationController id="zMa-xp-llP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="追加" id="5jK-Zl-SJf"/>
+                    <tabBarItem key="tabBarItem" title="追加" image="iconadd" selectedImage="iconadd" id="5jK-Zl-SJf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gaa-sh-lY9">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -262,7 +266,7 @@
         <scene sceneID="5r7-Yb-yM1">
             <objects>
                 <navigationController id="ARk-zb-zq5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="カレンダー" id="asQ-Fy-FCa"/>
+                    <tabBarItem key="tabBarItem" title="カレンダー" image="iconmonth" selectedImage="iconmonth" id="asQ-Fy-FCa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yoC-fG-rT5">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -347,4 +351,11 @@
             <point key="canvasLocation" x="2844" y="1360"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconadd" width="30" height="30"/>
+        <image name="iconcategory" width="30" height="30"/>
+        <image name="iconfriend" width="30" height="30"/>
+        <image name="iconmonth" width="30" height="30"/>
+        <image name="icontodo" width="30" height="30"/>
+    </resources>
 </document>

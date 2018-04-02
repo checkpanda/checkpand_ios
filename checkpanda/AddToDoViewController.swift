@@ -11,6 +11,7 @@ import Eureka
 
 class AddToDoViewController: FormViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initForm()
@@ -19,12 +20,17 @@ class AddToDoViewController: FormViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
+    @IBAction func tapFinishButton(_ sender: Any) {
+        //TODO 送信保存
+        print(form)
+    }
+    
     func initForm() {
         form +++ Section("")
                 <<< TextRow() { row in
                     row.title = "タイトル"
-                }
+                    }
             +++ Section("")
                 <<< DateTimeRow() { row in
                     row.title = "期限"
@@ -45,5 +51,9 @@ class AddToDoViewController: FormViewController {
                 <<< CheckRow() { row in
                     row.title = "通知"
                  }
+            +++ Section("")
+                <<< TextAreaRow() { row in
+                    row.placeholder = "メモ"
+                }
     }
 }
