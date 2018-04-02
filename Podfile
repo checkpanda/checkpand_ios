@@ -12,4 +12,5 @@ target 'checkpanda' do
   pod 'CalculateCalendarLogic', '~> 0.1.6'
   pod 'Eureka', '~> 4.1.0'
   pod 'Cosmos', '~> 15.0.0'
+  pod 'RealmSwift', '~> 3.1.1'
 end
