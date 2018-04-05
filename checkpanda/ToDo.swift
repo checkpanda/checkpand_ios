@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RealmSwift
 
 class ToDo: NSObject {
     //    ToDo ID
@@ -31,6 +32,10 @@ class ToDo: NSObject {
     
     var title: String
 //    var category: String?
+
+//    dynamic var id = UUID.uuidString()
+//    dynamic var title: String
+//    dynamic var deadline: DateTime
 
     init(t: String) {
 //        id = UUID()
